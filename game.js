@@ -51,27 +51,27 @@ function playSound(color) {
 
   switch (color) {
     case "red":
-      var red = new Audio("sounds/red.mp3");
+      var red = new Audio("red.mp3");
       red.play();
       break;
 
     case "blue":
-      var blue = new Audio("sounds/blue.mp3");
+      var blue = new Audio("blue.mp3");
       blue.play();
       break;
 
     case "green":
-      var green = new Audio("sounds/green.mp3");
+      var green = new Audio("green.mp3");
       green.play();
       break;
 
     case "yellow":
-      var yellow = new Audio("sounds/yellow.mp3");
+      var yellow = new Audio("yellow.mp3");
       yellow.play();
       break;
 
     case "wrong":
-      var wrong = new Audio("sounds/wrong.mp3");
+      var wrong = new Audio("wrong.mp3");
       wrong.play();
       break;
 
